@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recolor/static/css/main.b9eb4f5b.css",
+    "main.js": "/recolor/static/js/main.e8d2942c.js",
+    "static/js/787.601ab3bd.chunk.js": "/recolor/static/js/787.601ab3bd.chunk.js",
+    "index.html": "/recolor/index.html",
+    "main.b9eb4f5b.css.map": "/recolor/static/css/main.b9eb4f5b.css.map",
+    "main.e8d2942c.js.map": "/recolor/static/js/main.e8d2942c.js.map",
+    "787.601ab3bd.chunk.js.map": "/recolor/static/js/787.601ab3bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9eb4f5b.css",
+    "static/js/main.e8d2942c.js"
+  ]
+}
