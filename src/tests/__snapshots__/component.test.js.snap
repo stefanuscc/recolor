@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders proper color picker markup 1`] = `
+<div
+  className="relative inline-flex text-left"
+>
+  <div
+    className="flex"
+  >
+    <button
+      className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm"
+      onClick={[Function]}
+      type="button"
+    >
+      <div
+        className="inline-flex rounded-full h-5 w-5"
+        style={
+          Object {
+            "backgroundColor": "#AAAAAA",
+          }
+        }
+      />
+    </button>
+    <input
+      className="focus:ring-indigo-0 focus:border-indigo-0 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
+      data-testid="colorpicker"
+      id="colorpicker"
+      name="colorpicker"
+      onFocus={[Function]}
+      placeholder="Pick Color"
+      readOnly="readonly"
+      type="text"
+      value="#AAAAAA"
+    />
+  </div>
+  <div
+    aria-labelledby="menu-button"
+    aria-orientation="vertical"
+    className="origin-top absolute left-1/2 top-10 mt-2 w-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none transform opacity-0 scale-95 -translate-x-1/2"
+    role="menu"
+    tabIndex="-1"
+  >
+    <div>
+      <div
+        className="px-4 py-3"
+        role="none"
+      >
+        <div
+          className="recolor"
+        >
+          <div
+            aria-label="Color"
+            aria-valuetext="Saturation 0%, Brightness 67%"
+            className="recolor__saturation"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "hsl(0, 100%, 50%)",
+              }
+            }
+          >
+            <div
+              className="recolor__pointer r e c o l o r _ _ s a t u r a t i o n - p o i n t e r"
+              style={
+                Object {
+                  "left": "0%",
+                  "top": "32.99999999999999%",
+                }
+              }
+            >
+              <div
+                className="recolor__pointer-fill"
+                style={
+                  Object {
+                    "backgroundColor": "hsl(0, 0%, 67%)",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            aria-label="Hue"
+            aria-valuetext={0}
+            className="recolor__hue"
+            onClick={[Function]}
+          >
+            <div
+              className="recolor__pointer r e c o l o r _ _ h u e - p o i n t e r"
+              style={
+                Object {
+                  "left": "0%",
+                  "top": "50%",
+                }
+              }
+            >
+              <div
+                className="recolor__pointer-fill"
+                style={
+                  Object {
+                    "backgroundColor": "hsl(0, 100%, 50%)",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              className="mt-1 bg-white rounded-md shadow-sm -space-y-px "
+            >
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-t-md"
+              >
+                <div
+                  className="flex-1 flex items-center py-1"
+                >
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    R
+                  </div>
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    G
+                  </div>
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    B
+                  </div>
+                </div>
+                <div
+                  className="flex-0 min-w-0 flex items-center"
+                >
+                  <button
+                    className="px-1"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      className="h-4 w-4 text-gray-400"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-b-md"
+              >
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    R
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="r"
+                    name="r"
+                    onChange={[Function]}
+                    placeholder="R"
+                    type="text"
+                    value={170}
+                  />
+                </div>
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    G
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="g"
+                    name="g"
+                    onChange={[Function]}
+                    placeholder="G"
+                    type="text"
+                    value={170}
+                  />
+                </div>
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    B
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="b"
+                    name="b"
+                    onChange={[Function]}
+                    placeholder="B"
+                    type="text"
+                    value={170}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="mt-1 bg-white rounded-md shadow-sm -space-y-px hidden"
+            >
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-t-md"
+              >
+                <div
+                  className="flex-1 flex items-center py-1"
+                >
+                  <div
+                    className="w-full text-center text-sm"
+                  >
+                    HEX
+                  </div>
+                </div>
+                <div
+                  className="flex-0 min-w-0 flex items-center"
+                >
+                  <button
+                    className="px-1"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      className="h-4 w-4 text-gray-400"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-b-md"
+              >
+                <div
+                  className="w-full flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    R
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="r"
+                    name="r"
+                    onChange={[Function]}
+                    placeholder="R"
+                    type="text"
+                    value="#AAAAAA"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="mt-1 bg-white rounded-md shadow-sm -space-y-px hidden"
+            >
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-t-md"
+              >
+                <div
+                  className="flex-1 flex items-center py-1"
+                >
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    H
+                  </div>
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    S
+                  </div>
+                  <div
+                    className="w-1/3 text-center text-sm"
+                  >
+                    L
+                  </div>
+                </div>
+                <div
+                  className="flex-0 min-w-0 flex items-center"
+                >
+                  <button
+                    className="px-1"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <svg
+                      className="h-4 w-4 text-gray-400"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        clipRule="evenodd"
+                        d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3zm-3.707 9.293a1 1 0 011.414 0L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z"
+                        fillRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div
+                className="flex -space-x-px border border-gray-300 rounded-b-md"
+              >
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    H
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="h"
+                    name="h"
+                    onChange={[Function]}
+                    placeholder="H"
+                    type="text"
+                    value={0}
+                  />
+                </div>
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    S
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="s"
+                    name="s"
+                    onChange={[Function]}
+                    placeholder="S"
+                    type="text"
+                    value={0}
+                  />
+                </div>
+                <div
+                  className="w-1/3 flex-1 min-w-0"
+                >
+                  <label
+                    className="sr-only"
+                  >
+                    L
+                  </label>
+                  <input
+                    className="focus:ring-indigo-500 focus:border-indigo-500 py-1 relative block w-full bg-transparent focus:z-10 text-sm border-none"
+                    id="l"
+                    name="l"
+                    onChange={[Function]}
+                    placeholder="L"
+                    type="text"
+                    value={67}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

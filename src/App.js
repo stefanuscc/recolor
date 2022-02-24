@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+
+import React, { useState, useCallback } from "react";
 import './App.css';
+import ColorInput from './components/ColorInput';
 
 function App() {
+	const [chosenColor, setChosenColor] = useState("#AAAAAA");
+
+	const handleChange = useCallback((color) => {
+		setChosenColor(color);
+	}, []);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="mt-1 flex rounded-md shadow-sm">
+          <ColorInput name="colorpicker" id="colorpicker" color={chosenColor} onChange={handleChange}/>
+        </div>
       </header>
     </div>
   );
